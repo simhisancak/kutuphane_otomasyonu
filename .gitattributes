@@ -2,7 +2,8 @@
 # Set default behavior to automatically normalize line endings.
 ###############################################################################
 * text=auto
-
+*.H linguist-language=asp.net
+*.C linguist-language=asp.net
 ###############################################################################
 # Set default behavior for command prompt diff.
 #
