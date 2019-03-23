@@ -1,0 +1,802 @@
+﻿
+.home {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -37%);
+    text-align: center;
+}
+
+    .home .txt1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 7px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        top: 0;
+        left: 0;
+    }
+
+    .home .btn2 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .home .btn2:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+.Kitaplar {
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.edit {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-200%, -47%);
+    text-align: center;
+}
+
+    .edit .txt1, .edit .txt2, .edit .txt3, .edit .txt4, .edit .txt5, .edit .txt6, .edit .txt7, .edit .txt8, .edit .txt9 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 7px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        top: 0;
+        left: 0;
+    }
+
+.edit_lbl {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-250%, -57%);
+    text-align: left;
+}
+
+    .edit_lbl .lbl1, .edit_lbl .lbl2, .edit_lbl .lbl3, .edit_lbl .lbl4, .edit_lbl .lbl5, .edit_lbl .lbl6, .edit_lbl .lbl7, .edit_lbl .lbl8, .edit_lbl .lbl9 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 1px auto;
+        padding: 14px 5px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        transition: 0.25s;
+        top: 0;
+        left: 0;
+    }
+
+    .edit_lbl .btn4 {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-90%, 580%);
+        border: 0;
+        background: none;
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 6px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+
+        .edit_lbl .btn4:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+.edit .btn1 {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #2F4F4F;
+    padding: 7px 40px;
+    outline: none;
+    color: gray;
+    border-radius: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+
+    .edit .btn1:hover {
+        background: #2F4F4F;
+        color: white;
+    }
+
+.edit .btn3 {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 15px auto;
+    text-align: center;
+    border: 2px solid #8B0000;
+    padding: 7px 40px;
+    outline: none;
+    color: gray;
+    border-radius: 30px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+    .edit .btn3:hover {
+        background: #8B0000;
+        color: white;
+    }
+
+.edit_btn {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-170%, -181%);
+    text-align: center;
+}
+
+    .edit_btn .btn2 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 7px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .edit_btn .btn2:hover {
+            background: #525252;
+            color: white;
+        }
+
+
+.grid {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+}
+
+    .grid .data {
+        width: 100%;
+        background-color: white;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        border-collapse: collapse;
+    }
+
+        .grid .data td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+            color: #717171;
+        }
+
+        .grid .data th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #424242 url(grd_head.png) repeat-x top;
+            border-left: solid 1px #525252;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        .grid .data .alt {
+            background: #fcfcfc url(grd_alt.png) repeat-x top;
+        }
+
+        .grid .data .pgr {
+            background: #424242 url(grd_pgr.png) repeat-x top;
+        }
+
+            .grid .data .pgr table {
+                margin: 5px 0;
+            }
+
+            .grid .data .pgr td {
+                border-width: 0;
+                padding: 0 6px;
+                border-left: solid 1px #666;
+                font-weight: bold;
+                color: #fff;
+                line-height: 12px;
+            }
+
+            .grid .data .pgr a {
+                color: #666;
+                text-decoration: none;
+            }
+
+                .grid .data .pgr a:hover {
+                    color: #000;
+                    text-decoration: none;
+                }
+
+
+.gridusr {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-20%, -50%);
+    text-align: center;
+}
+
+    .gridusr .data {
+        width: 100%;
+        background-color: white;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        border-collapse: collapse;
+    }
+
+        .gridusr .data td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+            color: #717171;
+        }
+
+        .gridusr .data th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #424242 url(grd_head.png) repeat-x top;
+            border-left: solid 1px #525252;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        .gridusr .data .alt {
+            background: #fcfcfc url(grd_alt.png) repeat-x top;
+        }
+
+        .gridusr .data .pgr {
+            background: #424242 url(grd_pgr.png) repeat-x top;
+        }
+
+            .gridusr .data .pgr table {
+                margin: 5px 0;
+            }
+
+            .gridusr .data .pgr td {
+                border-width: 0;
+                padding: 0 6px;
+                border-left: solid 1px #666;
+                font-weight: bold;
+                color: #fff;
+                line-height: 12px;
+            }
+
+            .gridusr .data .pgr a {
+                color: #666;
+                text-decoration: none;
+            }
+
+                .gridusr .data .pgr a:hover {
+                    color: #000;
+                    text-decoration: none;
+                }
+
+.usr_txt {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-180%, -50%);
+    text-align: center;
+}
+
+    .usr_txt .txt1, .usr_txt .txt2, .usr_txt .txt3, .usr_txt .txt4 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 7px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        top: 0;
+        left: 0;
+    }
+
+    .usr_txt .btn3 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        border: 2px solid #8B0000;
+        padding: 7px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .usr_txt .btn3:hover {
+            background: #8B0000;
+            color: white;
+        }
+
+
+    .usr_txt .btn1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 7px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+
+        .usr_txt .btn1:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+.usr_lbl {
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-240%, -74%);
+    text-align: left;
+}
+
+    .usr_lbl .lbl1, .usr_lbl .lbl2, .usr_lbl .lbl3, .usr_lbl .lbl4 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 1px auto;
+        padding: 13px 5px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        transition: 0.25s;
+        top: 0;
+        left: 0;
+    }
+
+    .usr_lbl .btn4 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 19px -15px;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 6px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+
+        .usr_lbl .btn4:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+
+.usr_btn {
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-155%, -108%);
+    text-align: center;
+}
+
+    .usr_btn .btn2 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 6px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .usr_btn .btn2:hover {
+            background: #525252;
+            color: white;
+        }
+
+
+
+.login {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .login .txtuser, .login .txtpsw {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .login .txtuser:focus, .login .txtpsw:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .login .btnlogin {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .login .btnlogin:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .login .lbl1 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #b30000;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .login .recovery {
+        border: 0;
+        background: none;
+        display: block;
+        width: 182px;
+        height: 55px;
+        margin: 150px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .login .recovery:hover {
+            background: darkred;
+            color: white;
+        }
+
+
+
+.register {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .register .txtuser, .register .txtpsw, .register .txtmail {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .register .txtuser:focus, .register .txtpsw:focus, .register .txtmail:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .register .btnlogin {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .register .btnlogin:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+    .register .lbl2 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .register .mailcontrol {
+        position: absolute;
+        margin: -9px 20px;
+        text-align: center;
+        padding: 5px -10px;
+        outline: none;
+        color: #b30000;
+        font-size: 15px;
+        transition: 0.25s;
+        left: 37%;
+    }
+
+
+
+
+.recovery {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .recovery .txtmail {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .recovery .txtmail:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .recovery .btnsend {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .recovery .btnsend:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .recovery .mailcontrol {
+        position: absolute;
+        margin: -9px 20px;
+        text-align: center;
+        padding: 5px -10px;
+        outline: none;
+        color: #b30000;
+        font-size: 15px;
+        transition: 0.25s;
+        left: 37%;
+    }
+
+    .recovery .lblmail {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+
+.recovery2 {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .recovery2 .txtpsw {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .recovery2 .txtpsw:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .recovery2 .btnsend {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .recovery2 .btnsend:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+    .recovery2 .lblmail {
+        position: absolute;
+        margin: -25px -35px;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+
+
+
+
+.bilgi {
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    padding: -5px 0;
+    position: absolute;
+    margin: 0 0;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}

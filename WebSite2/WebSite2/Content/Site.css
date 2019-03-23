@@ -1,0 +1,765 @@
+﻿
+
+.iletisim {
+    width: 300px;
+    padding: 20px;
+    position: absolute;
+    margin: 0 auto;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -80%);
+    text-align: center;
+}
+
+    .iletisim a {
+        margin: 10px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: #2F4F4F;
+        font-size: 35px;
+        transition: 0.25s;
+    }
+
+    .iletisim h2 {
+        margin: 10px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        font-size: 35px;
+        transition: 0.25s;
+        color: gray;
+    }
+
+.yazmali {
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+
+
+
+    .yazmali .txt1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 1px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+    .yazmali .btn1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .yazmali .btn1:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .yazmali .lbl1 {
+        margin: 20px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 35px;
+        transition: 0.25s;
+    }
+
+    .yazmali .lbl2 {
+        margin: 70px auto;
+        text-align: center;
+        padding: 14px 70px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .yazmali .img {
+        margin: 20px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 35px;
+        transition: 0.25s;
+    }
+
+.secmeli {
+    width: 900px;
+    padding: 100px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .secmeli .img {
+        margin: 20px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 35px;
+        transition: 0.25s;
+    }
+
+    .secmeli .btn2 {
+        border: 0;
+        background: none;
+        display: block;
+        height: 28px;
+        width: 200px;
+        margin: 1px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 1px 1px;
+        outline: none;
+        color: white;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+    .secmeli .btn3, .secmeli .btn4, .secmeli .btn5, .secmeli .btn6, .secmeli .btn7 {
+        border: 0;
+        background: none;
+        display: block;
+        height: 28px;
+        width: 200px;
+        margin: 10px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 1px 1px;
+        outline: none;
+        color: white;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+        font-size: 15px;
+    }
+
+        .secmeli .btn2:hover, .secmeli .btn3:hover, .secmeli .btn4:hover, .secmeli .btn5:hover, .secmeli .btn6:hover, .secmeli .btn7:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+
+    .secmeli .lbl5 {
+        margin: 70px;
+        text-align: center;
+        padding: 20px 10px;
+        outline: none;
+        color: gray;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+.mat-yazmali {
+    width: 400px;
+    padding: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+    .mat-yazmali .txt1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+    .mat-yazmali .btn1 {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .mat-yazmali .btn1:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .mat-yazmali .lbl1 {
+        margin: 20px auto;
+        text-align: center;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 35px;
+        transition: 0.25s;
+    }
+
+    .mat-yazmali .lbl2 {
+        margin: 70px auto;
+        text-align: center;
+        padding: 14px 70px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+
+
+
+
+.login {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .login .txtuser, .login .txtpsw {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .login .txtuser:focus, .login .txtpsw:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .login .btnlogin {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .login .btnlogin:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .login .lbl1 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #b30000;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .login .recovery {
+        border: 0;
+        background: none;
+        display: block;
+        width: 182px;
+        height: 55px;
+        margin: 150px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .login .recovery:hover {
+            background: darkred;
+            color: white;
+        }
+
+
+
+.register {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .register .txtuser, .register .txtpsw, .register .txtmail {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .register .txtuser:focus, .register .txtpsw:focus, .register .txtmail:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .register .btnlogin {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .register .btnlogin:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+    .register .lbl2 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .register .mailcontrol {
+        position: absolute;
+        margin: -9px 20px;
+        text-align: center;
+        padding: 5px -10px;
+        outline: none;
+        color: #b30000;
+        font-size: 15px;
+        transition: 0.25s;
+        left: 37%;
+    }
+
+
+
+
+.rank1 {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 46%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .rank1 .data, .rank2 .data, .rank3 .data, .rank4 .data {
+        width: 100%;
+        background-color: white;
+        margin: 5px 0 10px 0;
+        border: solid 1px #525252;
+        border-collapse: collapse;
+    }
+
+        .rank1 .data td, .rank2 .data td, .rank3 .data td, .rank4 .data td {
+            padding: 2px;
+            border: solid 1px #c1c1c1;
+            color: #717171;
+        }
+
+        .rank1 .data th, .rank2 .data th, .rank3 .data th, .rank4 .data th {
+            padding: 4px 2px;
+            color: #fff;
+            background: #424242 url(grd_head.png) repeat-x top;
+            border-left: solid 1px #525252;
+            font-size: 0.9em;
+            text-align: center;
+        }
+
+        .rank1 .data .alt, .rank2 .data .alt, .rank3 .data .alt, .rank4 .data .alt {
+            background: #fcfcfc url(grd_alt.png) repeat-x top;
+        }
+
+        .rank1 .data .pgr, .rank2 .data .pgr, .rank3 .data .pgr, .rank4 .data .pgr {
+            background: #424242 url(grd_pgr.png) repeat-x top;
+        }
+
+            .rank1 .data .pgr table, .rank2 .data .pgr table, .rank3 .data .pgr table, .rank4 .data .pgr table {
+                margin: 5px 0;
+            }
+
+            .rank1 .data .pgr td, .rank2 .data .pgr td, .rank3 .data .pgr td, .rank4 .data .pgr td {
+                border-width: 0;
+                padding: 0 6px;
+                border-left: solid 1px #666;
+                font-weight: bold;
+                color: #fff;
+                line-height: 12px;
+            }
+
+            .rank1 .data .pgr a, .rank2 .data .pgr a, .rank3 .data .pgr a, .rank4 .data .pgr a {
+                color: #666;
+                text-decoration: none;
+            }
+
+                .rank1 .data .pgr a:hover, .rank2 .data .pgr a:hover, .rank3 .data .pgr a:hover, .rank4 .data .pgr a:hover {
+                    color: #000;
+                    text-decoration: none;
+                }
+
+    .rank1 .lbl1, .rank2 .lbl1, .rank3 .lbl1, .rank4 .lbl1 {
+        color: gray;
+    }
+
+.rank2 {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+
+.rank3 {
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top: 46%;
+    left: 80%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.recovery {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .recovery .txtmail {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .recovery .txtmail:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .recovery .btnsend {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .recovery .btnsend:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+    .recovery .mailcontrol {
+        position: absolute;
+        margin: -9px 20px;
+        text-align: center;
+        padding: 5px -10px;
+        outline: none;
+        color: #b30000;
+        font-size: 15px;
+        transition: 0.25s;
+        left: 37%;
+    }
+
+    .recovery .lblmail {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+
+.recovery2 {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .recovery2 .txtpsw {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 20px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 14px 10px;
+        width: 200px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+        .recovery2 .txtpsw:focus {
+            width: 280px;
+            border-color: #2F4F4F;
+        }
+
+    .recovery2 .btnsend {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 45px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+        .recovery2 .btnsend:hover {
+            background: #2F4F4F;
+            color: white;
+        }
+
+
+    .recovery2 .lblmail {
+        position: absolute;
+        margin: -25px -35px;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: #006600;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+.duel {
+    width: 600px;
+    padding: 30px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+    .duel .lbl1 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: gray;
+        font-size: 20px;
+        transition: 0.25s;
+    }
+
+    .duel .counter {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 15px auto;
+        text-align: center;
+        border: 2px solid #525252;
+        padding: 10px 20px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+    }
+
+    .duel .btnok {
+        border: 0;
+        background: none;
+        display: block;
+        margin: 17px auto;
+        text-align: center;
+        border: 2px solid #2F4F4F;
+        padding: 14px 40px;
+        outline: none;
+        color: gray;
+        border-radius: 30px;
+        transition: 0.25s;
+        cursor: pointer;
+    }
+
+    .duel .lbl2 {
+        margin: 0px auto;
+        text-align: center;
+        padding: 14px 0px;
+        outline: none;
+        color: gray;
+        font-size: 15px;
+        transition: 0.25s;
+    }
+
+
+
+
+
+
+.bilgi {
+    width: 500px;
+    padding: 30px;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: gray;
+    font-size: 20px;
+}
+
+
+
+
+.footer {
+    width: 100%;
+    padding: -5px 0;
+    position: absolute;
+    margin: 0 0;
+    top: 97%;
+    left: 50%;
+    transform: translate(-50%, -45%);
+    text-align: center;
+    font-size: 15px;
+    color: gray;
+}
+
+.footer .ads {
+    height:30px;
+    padding: 0 0;
+    position: absolute;
+    margin:-5px auto;
+    top: 90%;
+    left: 50%;
+    transform: translate(138%, -99%);
+    text-align: center;
+    font-size: 20px;
+    color: gray;
+}
+
+.footer .ads2 {
+    width: 304px;
+    height: 36px;
+    padding: 0 0;
+    position: absolute;
+    margin: -4px 0;
+    top: 93%;
+    left: 8%;
+    transform: translate(-50%, -99%);
+    text-align: center;
+    font-size: 15px;
+    color: lightgray;
+}
